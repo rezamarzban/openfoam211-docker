@@ -66,7 +66,7 @@ If you want to run minimum `OpenFoam 2.1.1` run:
 docker start openfoam211-min -i
 ```
 
-Then, run in the docker environment:
+Then, run this command everytime in the docker environment:
 ```
 source /opt/OpenFOAM/OpenFOAM-2.1.x/etc/bashrc
 ```
