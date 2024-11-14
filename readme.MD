@@ -43,13 +43,18 @@ docker run  -it -d --name ${containerName} --entrypoint /bin/bash --user=${user}
     ${imageName}
 ```
 
-Then, run:
+#### 2. To run OpenFoam run the "startOpenFOAM211" script.
+
+If you want to run minimum `OpenFoam 2.1.1` run:
 
 ```
 docker start openfoam211-min -i
 ```
 
-#### 2. To run OpenFoam run the "startOpenFOAM211" script.
+Then, run in the docker environment:
+```
+source /opt/OpenFOAM/OpenFOAM-2.1.x/etc/bashrc
+```
 
 #### 3. "Getting started" instruction from OpenFOAM website.
 Use it to check if everything is working well.
