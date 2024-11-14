@@ -16,7 +16,7 @@ sudo apt install docker-ce -y
 sudo systemctl status docker
 ```
 
-For other OS see https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04 and choose from list.
+For other OS see guide in https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04 and choose your OS drop-down menu.
 
 ## How-to
 ###### Note that you may need to mark the install and start scripts as executable.
