@@ -66,7 +66,7 @@ To run graphical `OpenFoam 2.1.1` docker container run the "startOpenFOAM211" sc
 docker start openfoam211-min -i
 ```
 
-Then, run this command everytime in the docker environment:
+Then, run this command everytime in the minimal `OpenFoam 2.1.1` docker running container:
 ```
 source /opt/OpenFOAM/OpenFOAM-2.1.x/etc/bashrc
 ```
