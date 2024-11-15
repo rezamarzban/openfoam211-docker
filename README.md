@@ -21,10 +21,10 @@ For other OS see guide in https://www.digitalocean.com/community/tutorials/how-t
 ## How-to
 ###### Note that you may need to mark the install and start scripts as executable.
 
-#### 1. Run the installOpenFOAM211 script.
-This will download graphical `OpenFoam 2.1.1` docker image from hub.docker.io and setup a container.
+#### 1. Install 
 
-If you want to install minimum `OpenFoam 2.1.1` run:
+Run the installOpenFOAM211 script,
+This will download graphical `OpenFoam 2.1.1` docker image from hub.docker.io and setup a container. Otherwise, If you want to install minimal `OpenFoam 2.1.1` run:
 
 ```
 username="$USER"
@@ -58,9 +58,9 @@ docker run  -it -d --name ${containerName} --entrypoint /bin/bash --user=${user}
     ${imageName}
 ```
 
-#### 2. To run OpenFoam run the "startOpenFOAM211" script.
+#### 2. Run
 
-If you want to run minimum `OpenFoam 2.1.1` run:
+To run graphical `OpenFoam 2.1.1` docker container run the "startOpenFOAM211" script. Otherwise, If you want to run minimal `OpenFoam 2.1.1` run:
 
 ```
 docker start openfoam211-min -i
